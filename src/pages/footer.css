@@ -1,0 +1,16 @@
+.blue-bottom{
+    background-color: #0041ae;
+    height: 20pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+}
+.mandiri-copyright{
+    font-family: "Open Sans";
+    color: #fff;
+    font-size: 8pt;
+    margin-top: 10px;
+}
