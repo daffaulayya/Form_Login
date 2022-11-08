@@ -1,68 +1,26 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .Content {
   display: flex;
 }
 
 .LogForm {
   background-color: white;
-  margin-left: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 2rem;
-  width: 400px;
+  margin-bottom: 2rem;
   height: 450px;
-  border-radius: 5%;
-  margin-bottom: 1rem;
-  display: flex;
-  overflow: hidden;
-  flex-direction: column;
-  align-items: center;
+  border-radius: 15px;
   box-shadow: rgb(191 228 255) 0px 2px 4px 0px, rgb(191 228 255) 0px 2px 4px 0px;
+  padding: 30px;
+  padding-top: 0;
 }
 
 .SlideBanner {
   margin-left: 20px;
+  width: 65%;
 }
 .bg-body {
   background-color: #f3f7fb;
-  height:100vh;
-  width: 100%;
 }
 
 .Header {
@@ -73,5 +31,15 @@
   text-align: left;
   margin-left: 0pt;
   height: 115px;
+  width: 100%;
 }
+
+.textDashboard {
+  color: #2569a5;
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 12pt;
+}
+
+
 

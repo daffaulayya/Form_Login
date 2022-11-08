@@ -59,7 +59,7 @@ const IniLogin = () => {
       }}
     >
       <div className="logoKopra">
-        <img src="/images/logo-kopra.png" style={{ width: "50%" }} />
+        <img src="/images/logo-kopra.png" style={{ width: "40%" }} />
       </div>
       <Form.Item
         className="FormCompany"
@@ -76,7 +76,7 @@ const IniLogin = () => {
             outlineStyle: "none",
             borderColor: "#a3c3e7",
             borderRadius: "10px",
-            width: "300px",
+            // width: "120%",
             height: "50px",
           }}
           placeholder="CompanyID"
@@ -94,7 +94,7 @@ const IniLogin = () => {
         ]}
       >
         <Input
-          style={{ borderRadius: "10px", width: "300px", height: "50px" }}
+          style={{ borderRadius: "10px", height: "50px", borderColor: "#a3c3e7" }}
           placeholder="UserID"
           onChange={handleInputChange}
           name="userID"
@@ -110,32 +110,32 @@ const IniLogin = () => {
         ]}
       >
         <Input
-          style={{ borderRadius: "10px", width: "300px", height: "50px" }}
+          style={{ borderRadius: "10px", height: "50px", borderColor: "#a3c3e7"}}
           type="password"
           placeholder="Password"
           onChange={handleInputChange}
           name="password"
         />
       </Form.Item>
-
-      <Form.Item>
-        <Button
-          style={{
-            backgroundColor: "#FCB700",
-            borderRadius: "30pt",
-            height: "40px",
-            fontWeight: "bold",
-          }}
-          size="large"
-          href=""
-          type="submit"
-          className="login-form-button"
-          onClick={onFinish}
-        >
-          <KeyOutlined rotate={180} />
-          login
-        </Button>
-      </Form.Item>
+      <div style={{ textAlign: "center" }}>
+                  <Button
+                    style={{
+                      backgroundColor: "#FCB700",
+                      borderRadius: "30pt",
+                      height: "40px",
+                      fontWeight: "bold",
+                      width: "100%"
+                    }}
+                    size="large"
+                    href="./Dashboard1"
+                    type="submit"
+                    className="login-form-button1"
+                    // onClick={onFinish}
+                  >
+                    <KeyOutlined rotate={180} />
+                    Register
+                  </Button>
+                  </div>
       <p className="LogDaftar">
         Don't have an account? <a href="./IniSignUp"> Sign Up.</a>
       </p>

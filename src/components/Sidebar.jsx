@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { NavLink } from 'react-router-dom';
 
-import {DashboardOutlined, InfoCircleOutlined, FundOutlined, MenuOutlined, ProjectOutlined, PoweroffOutlined  } from "@ant-design/icons";
+import {HomeOutlined, AppstoreOutlined, SolutionOutlined, MenuOutlined, TeamOutlined } from "@ant-design/icons";
 
 
 const Sidebar = ({children}) => {
@@ -10,24 +10,24 @@ const Sidebar = ({children}) => {
     const toggle = () => setIsOpen (!isOpen);
     const menuItem=[
         {
-            path:"/Dashboard",
+            path:"/dashboard",
             name:"Dashboard",
-            icon:<DashboardOutlined />
+            icon:<HomeOutlined />
         },
         {
-            path:"/About",
-            name:"About",
-            icon:<InfoCircleOutlined />
+            path:"/about",
+            name:"My Product",
+            icon:<AppstoreOutlined />
         },
         {
-            path:"/Analytics",
-            name:"Analytics",
-            icon:<FundOutlined />
+            path:"/analytics",
+            name:"My Account",
+            icon:<SolutionOutlined />
         },
         {
-            path:"/Comment",
-            name:"Project",
-            icon: <ProjectOutlined />
+            path:"/comment",
+            name:"My Community",
+            icon: <TeamOutlined />
         }
     ]
     return (
